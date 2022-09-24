@@ -1,7 +1,9 @@
-import React from "react";
-
-const Home = () => {
-  return <div>Home</div>;
-};
-
-export default Home;
+export default function Home() {
+  return (
+    <div className="my-[12rem] text-center">
+      <p className="text-2xl font-bold">
+        {`Keycloak Landing Page. You are at Home `}&trade;
+      </p>
+    </div>
+  );
+}
